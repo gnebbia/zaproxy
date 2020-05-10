@@ -2,10 +2,8 @@
 
 Fast passive scan of 1 minute (around 600 pages):
 ```sh
-docker run -t owasp/zap2docker-weekly \
-    zap-baselyine.py -t <target_url> 
+docker run -t owasp/zap2docker-weekly zap-baselyine.py -t <target_url> 
 ```
-
 this is very configurable if needed.
 
 ## Basic Functionalities
